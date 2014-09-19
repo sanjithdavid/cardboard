@@ -95,6 +95,8 @@ public class MyGLRenderer implements GLSurfaceView.Renderer{
         GLES20.glShaderSource(shader, shaderCode);
         GLES20.glCompileShader(shader);
 
+
+        //
         return shader;
     }
 
