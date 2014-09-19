@@ -32,6 +32,7 @@ public class MyGLRenderer implements GLSurfaceView.Renderer{
         mTriangle = new Triangle();
         // initialize a square
         //mSquare = new Square();
+        
     }
 
     @Override
